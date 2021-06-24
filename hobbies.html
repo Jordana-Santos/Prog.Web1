@@ -8,12 +8,27 @@
     <title>Hobbies</title>
     <style>
         img {
-            width: 20%;
+            width: 25%;
+            margin-left: 280px;
         }
+       ul, img {
+            display: inline-block;
+        }
+        #caixinha {
+            width: 700px;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #comentario {
+            text-align: right;
+            font-size: 70%;
+            margin-right: 20px;
+        } 
     </style>
 </head>
 <body>
-    <div>
+    <div id="caixinha">
         <p>No meu tempo livre, gosto de:</p>
         <ul>
             <li>Estudar as estrelas</li>        
@@ -21,14 +36,10 @@
             <li>Jogar xadrez</li>
             <li>Assistir filmes</li>
             <li>Fotografar o céu</li>
-        </ul>    
-        <p>Das fotos que eu tirei, quer saber quais são minhas preferidas? <br>Vou listá-las abaixo:</p>
-        <ol>
-            <li><br><img src="foto1.jpg" alt="Primeira imagem"></li>
-            <li><br><img src="Foto2.jpg" alt="Segunda imagem"></li>
-            <li><br><img src="Foto3.jpg" alt="Terceira imagem"></li>
-            <li style="text-align: justify;">Veja mais fotos <a href="https://lourenco-jojo.tumblr.com/" style="color:lightcoral;" target="_blank">aqui</a>!</li>
-        </ol>
+        </ul>  
+        <img src="https://img2.pngio.com/constellations-vector-scorpio-constellation-transparent-png-scorpio-constellation-png-1920_1920.png" alt="Constelação de Escorpião">                       
+        <p id="comentario">Constelação de Escorpião, minha preferida!</p>
     </div>
+    
 </body>
 </html>
