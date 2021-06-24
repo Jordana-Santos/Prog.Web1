@@ -1,8 +1,13 @@
 body {
 background:ivory;
-border-style:dotted;
 text-align: center;
 margin: 15%;
 font-size: 120%;
 color: coral
+}
+ul {
+    text-align: justify;
+}
+div {
+    border-style:dotted;
 }
