@@ -11,3 +11,6 @@ li {
 div {
     border-style:dotted;
 }
+ul {
+    list-style-type:square;
+}
