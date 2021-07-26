@@ -44,3 +44,6 @@ p {
 select, textarea, button, .dados {
     box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
 }
+#metade1, #metade2 {
+    display: inline-block;
+}
