@@ -1,0 +1,46 @@
+*{
+    margin: 15px;
+}
+body {
+    background-color:#FBAF00;
+    margin-left:290px;
+    margin-right: 290px;
+}
+fieldset {
+    background-color:#FFA3AF;
+    border-radius: 10px;
+    border: #007CBE double 3px;
+}
+h1 {
+    color:#007CBE;
+    margin-left: 30px;
+}
+label {
+    color:#007CBE ;
+    font-size: 110%
+}
+legend {
+    color:#16697A;
+    font-size: 120%;
+}
+input, select, textarea, button {
+    border-radius: 5px;
+}
+input:focus, select:focus, textarea:focus, button:focus {
+    background-color:#FFDE5C
+}
+div, p {
+    color:#EDE7E3;
+}
+button:hover {
+    zoom: 110%;
+}
+#tipo {
+    margin: 0px;
+}
+p {
+    margin-left: 50px;
+}
+select, textarea, button, .dados {
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}

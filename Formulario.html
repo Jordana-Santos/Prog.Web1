@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type= "text/css" href="formulario.css">
     <title>Cadastro</title>
 </head>
 <body>
@@ -13,23 +14,25 @@
         <fieldset>
             <legend>Dados Pessoais</legend>
             <label for="nome">Nome:</label> <br>
-            <input type="text" name="nome" id="nome"> <br>
+            <input type="text" name="nome" id="nome" required class="dados"> <br>
             <label for="sobrenome">Sobrenome:</label> <br>
-            <input type="text" name="sobrenome" id="sobrenome"> <br>
+            <input type="text" name="sobrenome" id="sobrenome" required class="dados"> <br>
             <label for="email">E-mail:</label> <br>
-            <input type="email" name="email" id="email"> <br>
+            <input type="email" name="email" id="email" required class="dados"> <br>
             <label for="data">Data de nascimento:</label> <br>
-            <input type="text" name="data" id="data"> 
+            <input type="text" name="data" id="data" class="dados"> 
         </fieldset>
         <br>
         <fieldset>
             <legend>Detalhes</legend>
             <label for="tipo">Qual forma de programa é de seu interesse?</label> <br>
+            <div id="tipo">
             <input type="radio" name="tipo" value="curso" checked>Curso
             <input type="radio" name="tipo" value="aupair">Au Pair
-            <input type="radio" name="tipo" value="voluntario"> Voluntário
+            <input type="radio" name="tipo" value="voluntario">Voluntário
             <input type="radio" name="tipo" value="summer">Summer Job
             <input type="radio" name="tipo" value="escola">Ensino Médio 
+            </div>
             <br><br>
             <label for="lugar">Para que país deseja viajar?</label> <br>
             <select name="lugar" id="lugar"> 
@@ -45,18 +48,20 @@
             </select> 
             <br><br>
             <label for="extras">Quer incluir algo ao pacote?</label> <br>
+            <div>
             <input type="checkbox" name="extras" value="">Não desejo acrescentar nada <br>
             <input type="checkbox" name="extras" id="passagem">Passágens aéreas <br>
             <input type="checkbox" name="extras" id="quarto">Quarto Individual <br>
             <input type="checkbox" name="extras" id="seguro">Seguro de viagem <br>
             <input type="checkbox" name="extras" id="passeio">Passeios <br>
             <input type="checkbox" name="extras" id="shows">Ingressos de shows e festivais 
+            </div>
         </fieldset>
         <br>
         <fieldset>
             <legend>Dúvidas</legend>
             <label for="perguntas">Deixe suas dúvidas aqui:</label> <br>
-            <textarea name="perguntas" id="perguntas" cols="50" rows="7"></textarea>
+            <textarea name="perguntas" id="perguntas" cols="70" rows="7"></textarea>
         </fieldset>
         <br>
         <button type="submit">Concluído</button>
